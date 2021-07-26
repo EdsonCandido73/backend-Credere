@@ -11,6 +11,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
 app.use( async(req, res, next) => {
   const coordinatesRepository = getRepository(Coordinates);
   const coordinates = await coordinatesRepository.findOne(1);
@@ -26,6 +27,8 @@ app.use( async(req, res, next) => {
   next();
 })
 
+const port = process.env.PORT || 3333;
+
 app.use(routes);
 
-app.listen(3333);
+app.listen(port);
