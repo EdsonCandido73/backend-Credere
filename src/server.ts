@@ -11,7 +11,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-
 app.use( async(req, res, next) => {
   const coordinatesRepository = getRepository(Coordinates);
   const coordinates = await coordinatesRepository.findOne(1);
