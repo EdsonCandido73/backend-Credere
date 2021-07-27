@@ -2,6 +2,7 @@ import express from 'express';
 import { getRepository } from 'typeorm';
 import cors from 'cors';
 import './database/connections';
+import process from 'node:process';
 
 import routes from './routes';
 import Coordinates from './models/Coordinates';
@@ -26,8 +27,7 @@ app.use( async(req, res, next) => {
   next();
 })
 
-const port = process.env.PORT || 3333;
-
 app.use(routes);
 
-app.listen(port);
+const PORT = process.env.PORT || 3333;
+app.listen(PORT);
