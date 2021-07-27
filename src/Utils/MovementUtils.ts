@@ -10,7 +10,7 @@ export default {
       ])
 
     const actual = directionChanges.get(direction);
-    return (turningDirection==='GD') ? actual.next : actual.prev;
+    return (turningDirection==='GD') ? actual!.next : actual!.prev;
   },
 
   nextCoordinate(direction:string, x:number, y:number) {
