@@ -23,6 +23,6 @@ export default {
 
     await coordinatesRepository.save(coordinates);
   
-    return response.status(201).json(coordinates);
+    return response.status(200).json(coordinates);
   }
 }
