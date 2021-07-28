@@ -34,7 +34,7 @@ A intenção é controlar a sonda enviando a direção e quantidade de movimento
 
 1. Clonar o repositório `git clone https://github.com/EdsonCandido73/backend-Credere`.
 2. Dentro da pasta raiz do projeto, instale as dependências com o comando `npm install`.
-3. Para iniciar, executar o comando `npm start`, o servidor utilizará a porta 33333. 
+3. Para iniciar, executar o comando `npm start`, o servidor utilizará a porta 3333. 
 
 Observação: Para executar o projeto é obrigatório ter o [Node Js](https://nodejs.org/en/) instalado na versão 14 ou superior.
 
