@@ -67,7 +67,7 @@ Exemplo:
 **Requisição válida**
 ```
 {
-  movements: ['GE', 'M', 'M', 'M', 'GD', 'M', 'M']
+  movimentos: ['GE', 'M', 'M', 'M', 'GD', 'M', 'M']
 }
 ```
 **Resposta**
@@ -83,7 +83,7 @@ Exemplo:
 **Requisição inválida**
 ```
 {
-  movements: ['G', 'M', 'M']
+  movimentos: ['G', 'M', 'M']
 }
 ```
 **Resposta**
@@ -96,7 +96,7 @@ Exemplo:
 **Requisição inválida**
 ```
 {
-  movements: ['M', 'M', 'M', 'M', 'M']
+  movimentos: ['M', 'M', 'M', 'M', 'M']
 }
 ```
 **Resposta**
@@ -122,6 +122,6 @@ Por exemplo:
 
 # Testes unitários
 
-Em fase de desenvolvimento.
+* Em fase de desenvolvimento.
 
 ### Desenvolvido por Edson Cândido - 07/2021
